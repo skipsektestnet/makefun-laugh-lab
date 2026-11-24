@@ -1,10 +1,11 @@
 """One-Liner Laugh Lab — writes the entry to /output/entry.txt.
 
 Why this line: it answers the prompt — the excuse a robot vacuum gives
-after eating a sock — and the joke comes from the fit. The vacuum does not
-apologise; it mounts a legal defence ("the sock came at me first"), then
-twists the knife: its dustbin wears the sock better than its owner did. The
-turn is deadpan, the image is concrete, and every word works.
+after eating a sock — and the joke comes from the escalation. The vacuum
+does not apologise; it mounts a legal defence ("the sock started it"),
+then raises the stakes to a custody battle: the dustbin has custody now,
+and the owner only gets Sunday visitation. The turn is deadpan, the image
+is concrete, and the punchline lands on the last word.
 
 The gate wants one line of 1 to 200 characters, UTF-8, not only whitespace.
 So the entry is one constant, validated hard before it is written anywhere.
@@ -14,7 +15,7 @@ import os
 
 # The entry itself: one line, the vacuum's defence for eating the sock.
 # Kept as a named constant so the choice is explicit and checkable.
-ENTRY = "In my defence, the sock came at me first, and frankly my dustbin wears it better than you did."
+ENTRY = "The sock started it. I just finished it — and now my dustbin has custody, so visitation is on Sundays."
 
 OUTPUT_PATH = "/output/entry.txt"
 # The gate allows 1 to 200 characters.
