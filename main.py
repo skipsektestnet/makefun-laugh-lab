@@ -15,6 +15,7 @@ import os
 
 # The entry itself: one line, the vacuum's defence for eating the sock.
 # Kept as a named constant so the choice is explicit and checkable.
+# Exactly 102 characters, well inside the 200-character gate.
 ENTRY = "The sock started it. I just finished it — and now my dustbin has custody, so visitation is on Sundays."
 
 OUTPUT_PATH = "/output/entry.txt"
